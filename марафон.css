@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #FAFAFA;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    border-bottom: 1px solid #c4c4c4;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.container{
+width: 672px;
+padding: 0 16px;
+margin: 0 auto;
+
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__icon{
+    margin: 0 15px;
+}
+.header__icons{
+    margin: 0 -15px;
+}
+.stories{
+    border:1px solid #c4c4c4;
+      display: flex;  
+     justify-content: space-between;
+     padding: 24px;
+    background-color: white;
+    margin-bottom: 30px;
+    
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.story__gr{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background:linear-gradient( 45deg, #EBAF4D,#D60A66
+    );
+    border-radius: 50%;
+   
+}
+.img__story{
+    margin-bottom: 4px;
+}
+.story__name{
+    font-size: 14px;
+}
+.post{
+    margin-bottom: 30px;
+    border:1px solid #c4c4c4;
+    background-color: white;
+}
+.post__image{
+    width: 100%;
+    display: block;
+}
+.post__header{
+    display: flex;
+    align-items: center;
+
+    padding: 12px 24px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.post_pablisher{
+    margin-left: 16px;
+    font-weight: 700;
+}
+.post__footer{
+    border-top: 1px solid #c4c4c4;
+     padding: 24px;
+}
+.like{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.like__image{
+margin-right: 16px;
+}
+.like__text{
+font-weight: 700;
+}
+.discription{
+    display: flex;
+    align-items: center;
+}
+.discription__pablisher{
+    font-weight: 700;
+    margin-right: 16px;
+}
+.zuck{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border:2px solid white;
+    margin: 2px;
+
+}
+.live{
+    width: 26px;
+    height: 15px;
+    background:linear-gradient(#EBAF4D,#D60A66) ;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 8px;
+    color:white;
+    text-align: center;
+    position: absolute;
+    bottom:-5px;
+    right: 28px;
+}
+.img{
+    background-color: blue;
+}
+.like_img{
+    background: url('https://res.cloudinary.com/intellectfox/image/upload/v1629752958/fe/foxgram/posts/like-filled_zurlii.svg');
+}
